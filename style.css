@@ -1,0 +1,43 @@
+.contenaire{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#score{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+
+#cartes{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#game_over{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1%;
+}
+
+#play{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.carte{
+  width: 15%;
+  border: 0.2rem solid rgb(0, 0, 0);
+  padding: 0.5%;
+  background-color: rgb(255, 255, 255);
+}
+
+body{
+  background-color: rgb(52, 227, 99);
+}
